@@ -1,0 +1,73 @@
+body {
+   box-sizing: border-box;
+   background-color: aquamarine;
+}
+.grid {
+   border: 1px solid red;
+   background-color: rgb(29, 209, 38);
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-areas: "a a a"
+   "b c d"
+   "b f d"
+   "b e d"
+   "j j j";
+}
+.item1 {
+   grid-area: a;
+   border: 1px solid red;
+   background-color: brown;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+}
+.item2 {
+   grid-area: b;
+   border: 1px solid red;
+   background-color: grey;
+   text-transform: uppercase;
+   font-weight: bold;
+   height: 200px;
+   text-align: center;
+   background: url(/img/photo_2021-05-28_04-53-11.jpg);
+}
+.item3 {
+   grid-area: c;
+   border: 1px solid red;
+   background-color: yellow;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+}
+.item4 {
+   grid-area: d;
+   border: 1px solid red;
+   background-color: green;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+}
+.item5 {
+   grid-area: e;
+   border: 1px solid red;
+   background-color: blue;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+}
+.item6 {
+   grid-area: f;
+   border: 1px solid red;
+   background-color: orangered;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+}
+.item7 {
+   grid-area: j;
+   border: 1px solid red;
+   background-color: purple;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+}
